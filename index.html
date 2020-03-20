@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <script src="./Components/Codemirror/codemirror-5.52.0/lib/codemirror.js"></script>
+        <script src="./Components/Codemirror/codemirror-5.52.0/mode/clike/clike.js"></script>
+        <link rel="stylesheet" href="./Components/Codemirror/codemirror-5.52.0/lib/codemirror.css">
+        <link rel="stylesheet" href="./Components/Codemirror/codemirror-5.52.0/theme/lesser-dark.css">
+        <title>NUMBER DELETER</title>
+        <link rel="stylesheet" href="./Styles/style.css">
+    </head>
+    <body>
+        <div class = "messageBox ">
+            <div>
+                <h1></h1>
+            </div>
+        </div>
+        <header>
+            <div id = "header">
+                <h1>Line Numbers Deleter</h1>
+            </div>
+        </header>
+        <div id="container">
+            <main>
+                    <div class="playGround">
+                        <div id = "codeHeader">
+                            <h1>Put here your code</h1>
+                        </div>
+                        <div id = "code-editor">
+                            <textarea class="codemirror-textarea"></textarea>
+                            <div class = "buttonWrapper">
+                                <button type = "submit" id = "buttonSubmiter">
+                                    <i class="fas fa-code"></i>
+                                </button>
+                                <button type = "submit" id = "buttonCleaner">
+                                    <i class="far fa-trash-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id = "footer">
+                        <p>Created for Students</p>
+                    </div>
+            </main>
+        </div>
+        <script src="./App.js"></script>
+        
+        <script src="https://kit.fontawesome.com/b6906e7fd3.js" crossorigin="anonymous"></script>
+    </body>
+</html>
