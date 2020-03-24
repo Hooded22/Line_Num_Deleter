@@ -60,7 +60,7 @@ class Animations
         var block = document.getElementsByClassName("messageBox")[0];
         block.setAttribute("class", "messageBox active");
         setTimeout(() => {
-            block.getElementsByTagName("h1")[0].innerHTML = "Your text is cleande and copied to your store";
+            block.getElementsByTagName("h1")[0].innerHTML = "Your code has been cleaned and copied to the clipboard";
         }, 300);
         setTimeout(() => {
             this.messageBoxClose(block);
