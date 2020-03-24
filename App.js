@@ -88,8 +88,15 @@ function copyToClipBoard(text)
     document.body.removeChild(copyBlock);
 }
 
+function removeIndicator()
+{
+    const indicator = document.getElementById("ActivityIndicator");
+    document.body.removeChild(indicator);
+}
+
 
 window.onload = function(){
+    removeIndicator();
     var code = document.getElementsByClassName("codemirror-textarea")[0];
     var editor = CodeMirror.fromTextArea(code, {
         lineNumbers: true,
