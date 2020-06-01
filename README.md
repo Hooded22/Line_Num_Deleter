@@ -1,4 +1,4 @@
-# Project Title
+# Line Num Deleter
 
 Simple website which allow remove numbers of line which are in the code copied from PDF 
 
@@ -43,7 +43,7 @@ After:
 
 * [Code mirror](https://codemirror.net/index.html) - The web code editor component
 
-## Authors
+## Author
 
 * **Przemyslaw Sipta**
 
