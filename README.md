@@ -4,8 +4,8 @@ Simple website which allow remove numbers of line which are in the code copied f
 This version builded by react is progressive web application.
 
 ## Get access to website
-PWA react version: https://keen-snyder-aa8330.netlify.app/.
-Standard previous version: https://hooded22.github.io/Line_Num_Deleter/
+PWA react version: https://keen-snyder-aa8330.netlify.app/  
+Standard previous version: https://hooded22.github.io/Line_Num_Deleter/  
 
 ## Getting Started
 
