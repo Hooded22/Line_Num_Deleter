@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import CodeEditor from './Components/CodeEditor'
+import ActivityIndicator from './Components/ActivityIndicator'
 
 
 const App = () => {
     const [message, setMessage] = useState('');
-    const [messBlockActive, setMessBlockActive] = useState(false)
+    const [messBlockActive, setMessBlockActive] = useState(false);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setLoading(false);
+    })
 
     function messageBoxAnimation(message)
     {
@@ -17,7 +23,12 @@ const App = () => {
             setMessage('');
             setMessBlockActive(false);
         },2000)
-    } 
+    }
+    
+    if(loading)
+    {
+        return(<ActivityIndicator/>)
+    }
 
     return(    
     <div id="container">
