@@ -25,7 +25,7 @@ const CodeEditor = (props) => {
         var clearedTextArray = [];
         const inputedText = text.split("\n");
         inputedText.map((line,index) => {
-            clearedTextArray.push(clearLine(line, regex));
+            return clearedTextArray.push(clearLine(line, regex));
         })
         return clearedTextArray.join("\n");
     }
